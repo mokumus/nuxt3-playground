@@ -2,6 +2,9 @@ import vuetify from 'vite-plugin-vuetify'
 
 // @ts-ignore
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/nuxt3-playground/' // baseURL: '/<repository>/'
+  },
   ssr: false,
   css: ['vuetify/styles', '@mdi/font/css/materialdesignicons.min.css',], // vuetify ships precompiled css, no need to import sass
   vite: {
