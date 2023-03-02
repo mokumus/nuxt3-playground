@@ -9,7 +9,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npx nuxi generate & push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@mdi/font": "^7.1.96",
