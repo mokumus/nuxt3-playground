@@ -5,7 +5,7 @@ node_modules
 .cache
 .output
 .env
-dist
+
 .DS_Store
 
 
@@ -80,7 +80,7 @@ typings/
 .nuxt
 
 # Nuxt generate
-dist
+
 
 # vuepress build output
 .vuepress/dist
