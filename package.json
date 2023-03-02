@@ -9,7 +9,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "deploy": "npx nuxi generate & touch dist/.nojekyll & push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npx nuxi generate & ni dist/.nojekyll & push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@mdi/font": "^7.1.96",
