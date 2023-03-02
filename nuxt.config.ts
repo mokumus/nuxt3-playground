@@ -19,8 +19,7 @@ export default defineNuxtConfig({
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         if (config.plugins) config.plugins.push(vuetify())
       })
-    },
-    'nuxt-icon'
+    }
   ],
   
   
